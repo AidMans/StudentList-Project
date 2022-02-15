@@ -1,0 +1,48 @@
+.student-content {
+    &__heading {
+        color: rgb(11, 27, 11);
+    }
+
+    form {
+        border: 1px solid rgb(11, 27, 11);;
+        width: 40%;
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        input {
+            padding: 8px 16px;
+            width: 48%;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__radio {
+        display: flex;
+
+        div:first-child {
+            margin-right: 30px;
+        }
+    }
+
+    &__add-btn {
+        background-color: transparent;
+        padding: 8px 16px;
+        outline: none;
+        border: 1px solid rgb(11, 27, 11);
+        border-radius: 8px;
+        margin-top: 20px;
+
+        &-edit {
+            border: 1px solid rgb(190, 132, 38);
+            color: rgb(190, 132, 38);
+            display: none;
+        }
+    }
+}

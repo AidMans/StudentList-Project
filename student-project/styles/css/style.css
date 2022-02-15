@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.wrapper {
+  padding: 50px 20px;
+}
+
+.student-content__heading {
+  color: #0b1b0b;
+}
+.student-content form {
+  border: 1px solid #0b1b0b;
+  width: 40%;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.student-content__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.student-content__form input {
+  padding: 8px 16px;
+  width: 48%;
+  margin-bottom: 15px;
+}
+.student-content__radio {
+  display: flex;
+}
+.student-content__radio div:first-child {
+  margin-right: 30px;
+}
+.student-content__add-btn {
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid #0b1b0b;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.student-content__add-btn-edit {
+  border: 1px solid #be8426;
+  color: #be8426;
+  display: none;
+}
+
+table {
+  width: 80%;
+  margin-top: 50px;
+}
+table thead {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 2px 10px;
+}
+td img {
+  width: 30px;
+}
+td img:last-child {
+  margin-left: 20px;
+}
